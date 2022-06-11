@@ -1,18 +1,18 @@
-# JSON:API Parser
+# Include JSON:API
 
 This package allows fast and easy parsing of the JSON:API's complex appearance.
 
 # Installation
 
-npm: `npm i json-api-parser`
+npm: `npm i include-json-api`
 
-yarn: `yarn add json-api-parser`
+yarn: `yarn add include-json-api`
 
 # Usage
 
 ```js
 const payload = {}; // This is the payload you received from the JSON:API endpoint
-const { parseJSONAPI } = require('json-api-parser');
+const { parseJSONAPI } = require('include-json-api');
 const root = parseJSONAPI(payload);
 
 // `root` represents the root of the received JSON
